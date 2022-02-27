@@ -1,0 +1,16 @@
+{
+  "name": "npc-mind",
+  "version": "1.0.0",
+  "description": "Library with NPC mind related classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "videogames",
+    "npc",
+    "mind"
+  ],
+  "author": "Ivan Saez Zamora",
+  "license": "MIT"
+}
