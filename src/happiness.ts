@@ -53,4 +53,8 @@ export class Happiness{
     decreasePercentage(percentage:number){
         this._level.decreasePercentage(percentage);
     }
+
+    copy(): Happiness{
+        return new Happiness(this._level.value);
+    }
 }

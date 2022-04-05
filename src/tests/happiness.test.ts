@@ -69,4 +69,12 @@ describe("Happiness should", () => {
     expect(happiness.isDepressed).toBe(true);
     expect(happiness.isNeutral).toBe(false);
   });
+
+  it("return a copy", () => {
+    let happiness = new Happiness(5);
+
+    let copy = happiness.copy();
+
+    expect(copy.value).toBe(happiness.value);
+  });
 });
